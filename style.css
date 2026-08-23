@@ -945,12 +945,15 @@ img {
     }
 
     .heroText,
-    .heroImage {
+    .hero-image {
         width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
     }
 
     .hero h1 {
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .collectionContainer {
