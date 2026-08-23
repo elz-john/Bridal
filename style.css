@@ -23,6 +23,47 @@ img {
 }
 
 
+
+/*=============SEARCH BAR===========*/
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 30px auto;
+}
+
+.search-box input {
+    width: 250px;
+    padding: 12px 15px;
+    border: 1px solid #d58b9d;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box input:focus {
+    border-color: #a94f68;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d58b9d;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background-color: white;
+    color: #d58b9d;
+    border: 1px solid #d58b9d;
+}
+
+
 /* ================= NAVBAR ================= */
 
 .navbar {
