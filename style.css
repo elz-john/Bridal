@@ -863,10 +863,14 @@ img {
 
     background: #d58b9d;
     color: white;
-
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
+.subButton:hover {
+    background: #f3b9c7;
+    transform: translateY(-3px);
+}
 
 /* ================= FOOTER ================= */
 
